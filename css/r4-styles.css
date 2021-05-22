@@ -1,0 +1,50 @@
+/* Se importa la fuente a utilizar */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  border: 0;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+td {
+  width: 15%;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f2f2f2;
+}
+/* Estilos para la tabla */
+
+/* Contenedor */
+.container {
+  width: 90%;
+  padding: 5%;
+}
+
+/* Estilos para adaptar a pantallas pequeñas */
+
+@media (max-width: 768px) {
+  #tabla {
+    overflow: auto;
+    width: 100%;
+  }
+}
